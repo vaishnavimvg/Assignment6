@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+ <title>My First Web Page</title>
+ <link href="style.css" rel="stylesheet">
+</head>
+<body>
+ 
+   <div>
+      <button
+        style="font-size:20px; display:block; width:fit-content; margin:auto;" 
+        id="btn-users">Get All Users</button>
+    </div>   
+<form method="post" id="login-form">
+  <label for="uname">Username or Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="text" id="uname" name="uname" placeholder="Enter your Username" class="Signup"><br>
+  <label for="password">Password:</label>&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="password" id="password" name="password" placeholder="Enter your password" class="Signup"><br>
+  <br>
+  <input type="button" onclick="login()" value="submit" class="button1">
+</form>
+<a href="./register.html">Signup Page</a>
+<a href="./note.html">Notes Page</a>
+</body>
+<script src="script.js"></script>
+</html>
