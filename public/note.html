@@ -8,7 +8,6 @@ initial-scale=1.0">
  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <script src="script.js"></script>
   <img src="./images/shitzu.jpg" alt="shitzu" width="600" height="500"><br>
 <form id="note-form" method="post">
   <label for="note">Note:</label>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -16,7 +15,8 @@ initial-scale=1.0">
   <br>
   <input type="button" onclick="takeNote()" value="Submit" class="button1">
 </form> 
-<a href="./login.html">Login Page</a>
-<a href="./register.html">Signup Page</a>
+<a id="logout-btn">Logout</a>
+<notes></notes>
+<script src="script.js"></script>
 </body>
 </html>
